@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Main<platformstudent>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mrstride.Main",
+            "projectName": "platformstudent",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

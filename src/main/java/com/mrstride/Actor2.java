@@ -1,17 +1,18 @@
 package com.mrstride;
 
 import org.apache.logging.log4j.Logger;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Actor1 implements MyBehavior {
+@Primary
+public class Actor2 implements MyBehavior {
     public void act() {
-        System.out.println("I can act!");
+        System.out.println("I can act too!");
     }
 
     public boolean earnAnOscar(Logger logger) {
-        logger.info("I earned an Oscar!");
+        logger.info("I earned an Oscar as Actor2!");
         return true;
     }
 }
-
